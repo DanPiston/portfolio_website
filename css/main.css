@@ -1,0 +1,45 @@
+.container {
+    /*border: 5px solid lightsalmon;*/
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header {
+    /*border: 2px solid lightgreen;*/
+    width: 100%;
+    padding: 2px;
+    display: flex;
+}
+.projects {
+    width: 100%;
+    padding: 2px;
+    display: flex;
+}
+
+.logo {
+    width: 30%;
+}
+.header_title {
+    width: 70%;
+}
+.img_block {
+    width: 100%;
+}
+.project {
+    /*border: 1px solid seagreen;*/
+    width: 100%;
+}
+.social {
+    width: 100%;
+}
+
+.box {
+    background: lightskyblue;
+    color: white;
+    margin: 15px;
+    height: 100px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+}
