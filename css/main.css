@@ -1,15 +1,49 @@
-.container {
-    /*border: 5px solid lightsalmon;*/
+/* iconicstroke */
+@import url(http://weloveiconfonts.com/api/?family=iconicstroke);
+[class*="iconicstroke-"]:before {
+  font-family: 'IconicStroke', sans-serif;
+}
+.iconicstroke-bolt {
+    /*display: flex;
+    justify-content: center;*/
+    color: gold;
+    font-size: 65px;
+}
+
+* {
+    font-family: 'Share Tech Mono', monospace;
+}
+h1 {
+    font-size: 45px;
+}
+hr {
+ margin-top: 50px;
+ margin-bottom: 50px;
+ border-top: 1px solid black;
+}
+
+img {
     width: 100%;
-    max-width: 1024px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container {
+    width: 100%;
+    max-width: 900px;
     display: flex;
     flex-wrap: wrap;
 }
 .header {
-    /*border: 2px solid lightgreen;*/
     width: 100%;
     padding: 2px;
     display: flex;
+}
+.header_text {
+    color: lightslategrey;
+    padding-right: 15px;
+    line-height: 1px;
+    text-align: right;
 }
 .projects {
     width: 100%;
@@ -27,19 +61,21 @@
     width: 100%;
 }
 .project {
-    /*border: 1px solid seagreen;*/
     width: 100%;
+    margin: 15px;
+    text-align: center;
 }
 .social {
     width: 100%;
 }
 
-.box {
-    background: lightskyblue;
-    color: white;
+.img_block {
     margin: 15px;
-    height: 100px;
     text-align: center;
-    line-height: 50px;
+}
+.box {
+    color: goldenrod;
+    margin: 15px;
+    text-align: center;
     font-weight: bold;
 }
