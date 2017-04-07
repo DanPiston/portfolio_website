@@ -1,5 +1,6 @@
 /*font icons*/
-@import url(http://weloveiconfonts.com/api/?family=iconicstroke|brandico);
+@import url(http://weloveiconfonts.com/api/?family=iconicstroke|brandico|fontawesome);
+/*iconicstroke*/
 [class*="iconicstroke-"]:before {
   font-family: 'IconicStroke', sans-serif;
 }
@@ -7,16 +8,27 @@
 [class*="brandico-"]:before {
   font-family: 'brandico', sans-serif;
 }
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
 .iconicstroke-bolt {
     color: gold;
     font-size: 65px;
 }
+.fontawesome-film, .fontawesome-desktop, .fontawesome-edit {
+    font-size: 75px;
+    color: #1F2022;
+}
 
 /*General Styles*/
-* {
+h1, h2, h3 {
     font-family: 'Share Tech Mono', monospace;
 }
-h1 {
+h4, p {
+    font-family: 'Lato', sans-serif;
+}
+h1{
     font-size: 45px;
 }
 hr {
@@ -34,10 +46,10 @@ ul {
 }
 a {
     text-decoration: none;
-    color: #3F4145;    
+    color: #1F2022;
 }
 a:hover {
-    color: #1F2022;
+    color: #3F4145;    
 }
 .container {
     width: 100%;
@@ -80,9 +92,12 @@ header {
     padding: 2px;
     display: flex;
 }
+.project_title {
+    width: 100%;
+}
 .project {
     width: 100%;
-    margin: 15px;
+    margin: 10px;
     text-align: center;
 }
 .project img {
