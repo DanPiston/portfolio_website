@@ -1,13 +1,18 @@
 /*font icons*/
+
 @import url(http://weloveiconfonts.com/api/?family=iconicstroke|brandico);
+
 /*iconicstroke*/
+
 [class*="iconicstroke-"]:before {
-  font-family: 'IconicStroke', sans-serif;
+    font-family: 'IconicStroke', sans-serif;
 }
 
+
 /* brandico */
+
 [class*="brandico-"]:before {
-  font-family: 'brandico', sans-serif;
+    font-family: 'brandico', sans-serif;
 }
 
 .iconicstroke-bolt {
@@ -15,36 +20,54 @@
     font-size: 65px;
 }
 
+
 /*General Styles*/
-h1, h2, h3 {
+
+h1 {
     font-family: 'Share Tech Mono', monospace;
 }
-h4, p {
+
+h2 {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+h3 {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+h4,
+p {
     font-family: 'Lato', sans-serif;
 }
-h1{
+
+h1 {
     font-size: 45px;
 }
+
 hr {
     margin-left: 0;
     margin-right: 0;
 }
+
 ul {
     width: 25%;
     list-style: none;
     margin-left: auto;
     margin-right: auto;
-    padding: 0; 
+    padding: 0;
     display: flex;
     justify-content: space-around;
 }
+
 a {
     text-decoration: none;
     color: #1F2022;
 }
+
 a:hover {
-    color: #3F4145;    
+    color: #3f4145;
 }
+
 .container {
     width: 100%;
     max-width: 900px;
@@ -54,54 +77,65 @@ a:hover {
     flex-wrap: wrap;
 }
 
+
 /*Header Section*/
+
 header {
     width: 100%;
     min-width: 320px;
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
 }
+
 .header_title {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-content: space-between;
 }
+
 .header_text {
-    width:100%;
+    width: 100%;
     color: #3F4145;
     margin-right: 20px;
     line-height: 1px;
     text-align: right;
 }
+
 .hr_container {
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 
+
 /*Projects*/
+
 .projects {
     width: 100%;
     padding: 2px;
     display: flex;
 }
+
 .project_title {
     width: 100%;
 }
+
 .project {
     width: 100%;
     margin: 10px;
     padding: 0 15px;
     text-align: center;
 }
+
 .project img {
     width: 100%;
     max-width: 150px;
     margin-left: auto;
     margin-right: auto;
 }
-footer{
+
+footer {
     width: 100%;
     text-align: center;
     display: flex;
@@ -109,16 +143,18 @@ footer{
 }
 
 .img_block {
-    width:100%;
+    width: 100%;
     margin: 15px;
     text-align: center;
 }
+
 .img_block img {
     width: 100%;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
 }
+
 .box {
     color: goldenrod;
     margin: 15px;
@@ -130,7 +166,7 @@ footer{
     .projects {
         flex-wrap: wrap;
     }
-    .project img{
-        max-width: 200px!important;
+    .project img {
+        max-width: 200px !important;
     }
 }
